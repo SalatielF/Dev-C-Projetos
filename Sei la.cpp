@@ -8,7 +8,12 @@ int main(int argc, char *argv[])
 	setlocale(LC_ALL,"Portuguese");
 	//a Linha abaixo configura a cor da letra
 	system("color A");
-	printf("Olá Mundo z\n");
+	printf("Olá Mundo \n");
+	system("pause");
+	// a Linha abaixo limpa a tela
+	system("cls");
+	system("color F0");
+	printf("Professor José de Assis\n");
 	system("pause");
 	
 return 0;
