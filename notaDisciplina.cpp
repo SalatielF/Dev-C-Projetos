@@ -18,7 +18,7 @@ int main()
 	}
 	
 	notaDisciplina = notaLista+notaProva;
-	if(notaDisciplina >= 7){
+	if(notaDisciplina >= 6){
 		printf("Aluno Aprovado!");
 	}else{
 		printf("Aluno Reprovado!");
