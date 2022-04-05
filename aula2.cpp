@@ -11,4 +11,4 @@ int main(int argc, char *argv[])
 		printf("Bem vindo %s\n" ,nome);
 		system("pause");
 		return 0;
-}
+}s
