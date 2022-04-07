@@ -3,7 +3,8 @@
 int main()
 {
 	int n;
-	printf("Digite um numero: ");
+	printf("Digite um numero: 
+	");
 	scanf("%d", &n);
 	
 	if(n>0){

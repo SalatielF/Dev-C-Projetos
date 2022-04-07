@@ -14,5 +14,7 @@ int main()
 		printf("O numero e par! ");
 	}
 	
+	
+	
 return 0;
 }
