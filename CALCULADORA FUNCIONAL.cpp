@@ -37,7 +37,7 @@ int main(int agrc, char *argv[])
 	printf("----------------------------------------\n");
 	printf("1. Somar\n");
 	printf("2. Subtrair\n");
-	printf("3. Multipli\n");
+	printf("3. Multiplicar\n");
 	printf("4. Dividir\n");
 	printf("5. Calcular a porcentagem\n");
 	printf("\n");
@@ -58,7 +58,8 @@ int main(int agrc, char *argv[])
 			if (num2 == 0)
 			{
 				printf("Não é possivel dividir por 0\n");
-			}else
+			}
+			else
 			{
 				resultado = dividir(num1, num2);
 			}
@@ -66,6 +67,7 @@ int main(int agrc, char *argv[])
 		case 5:
 			resultado = calcularPorcentagem(num1, num2);
 			break;
+			
 		default:
 			printf("Opção inválida\n");
 			break;
